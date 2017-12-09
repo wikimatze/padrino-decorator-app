@@ -1,0 +1,9 @@
+---
+:orm: activerecord
+:test: rspec
+:mock: none
+:script: none
+:renderer: erb
+:stylesheet: none
+:namespace: PadrinoDecoratorApp
+:migration_format: number
