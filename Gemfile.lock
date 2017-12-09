@@ -49,6 +49,10 @@ GEM
       rack-protection (>= 1.5.0)
       sinatra (>= 1.4.6)
       thor (~> 0.18)
+    padrino-decorator (0.0.4)
+      padrino-core (>= 0.12.3)
+      padrino-gen (>= 0.12.3)
+      padrino-helpers (>= 0.12.3)
     padrino-gen (0.14.1.1)
       bundler (~> 1.0)
       padrino-core (= 0.14.1.1)
@@ -99,6 +103,7 @@ DEPENDENCIES
   activerecord (>= 3.1)
   erubi (~> 1.6)
   padrino (= 0.14.1.1)
+  padrino-decorator
   rack-test
   rake
   rspec

@@ -20,7 +20,7 @@ PadrinoDecoratorApp::App.controllers :page do
   # end
 
   get :new, :map => '/' do
-    @page = Page.first
+    @page = decorate(Page.first)
     render 'page/index'
   end
 

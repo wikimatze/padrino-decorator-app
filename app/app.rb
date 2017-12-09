@@ -1,5 +1,6 @@
 module PadrinoDecoratorApp
   class App < Padrino::Application
+    register Padrino::Decorator::Helpers
     use ConnectionPoolManagement
     register Padrino::Mailer
     register Padrino::Helpers
